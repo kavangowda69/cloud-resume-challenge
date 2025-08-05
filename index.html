@@ -1,0 +1,16 @@
+<body>
+    <h1>Kavan Gowda</h1>
+    <p>Visitors: <span id="visitor-count">Loading...</span></p>
+
+    <script>
+        fetch('https://4qkhjiaeue.execute-api.us-east-1.amazonaws.com/count')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('visitor-count').textContent = data.count;
+            })
+            .catch(err => {
+                document.getElementById('visitor-count').textContent = "Error";
+                console.error(err);
+            });
+    </script>
+</body>
