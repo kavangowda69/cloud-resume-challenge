@@ -1,47 +1,59 @@
 # ☁️ Cloud Resume Challenge – Kavan Gowda
 
-This is my take on the Cloud Resume Challenge — a deceptively simple project that forced me to get hands-on with some real AWS engineering.
-
-### 🔗 Live Links
-- 🌐 [Website](http://kavan-cloud-resume-bucket-fixed-1234.s3-website-us-east-1.amazonaws.com) – Hosted on S3, this static site displays my name and a live visitor count.
-- 🧮 [API Endpoint](https://944m4hfjjh.execute-api.us-east-1.amazonaws.com/visitor) – Backed by Lambda + DynamoDB + API Gateway.
+This is my take on the **Cloud Resume Challenge** — a deceptively simple project that turned into a real-world deep dive into AWS and DevOps.
 
 ---
 
-### 🧠 What I Did
+### 🧠 What I Built
 
-- Built a **serverless full-stack app** using:
-  - **AWS S3** to host the site
-  - **AWS Lambda** to handle backend logic
-  - **DynamoDB** to persist visitor count
-  - **API Gateway** to expose it as a REST API
-  - **IAM Roles + Policies** for security
-  - **Terraform** to manage everything as code
+A fully serverless web app using:
 
-- Debugged issues, fixed region mismatches, handled IAM errors, and deployed from scratch — more than once!
+- **AWS S3** for static website hosting  
+- **AWS Lambda** for backend logic  
+- **DynamoDB** to store a persistent visitor count  
+- **API Gateway** to expose a RESTful API  
+- **IAM** for fine-grained security  
+- **Terraform** to automate it all with Infrastructure as Code  
 
----
-
-### 🤔 So... Why is this a Resume?
-
-It's not just about showing my name — it's about showing what I can build.
-
-This challenge is a *resume in disguise*:
-> It quietly proves I can deploy secure, scalable cloud infrastructure with real tools used in real jobs.
+Along the way, I debugged permissions issues, fixed region mismatches, battled failed Lambda deployments, and re-deployed from scratch — more than once. Every part of this project is now running clean.
 
 ---
 
-### 🧰 Tools & Services Used
+### 🤔 Why Is This a Resume?
 
-- AWS (S3, Lambda, DynamoDB, API Gateway, IAM)
-- Terraform (Infrastructure as Code)
-- GitHub (version control)
+At first glance, it's just a site with my name and a visitor count.  
+But under the hood? It's proof of real skills.
+
+> This challenge isn't about showing *what’s on* a resume — it's about *proving* I can build, deploy, and manage production-grade cloud infrastructure from scratch.
+
+---
+
+### 🛠️ Tools & Technologies
+
+- **AWS** – S3, Lambda, DynamoDB, API Gateway, IAM  
+- **Terraform** – Infrastructure as Code  
+- **GitHub** – Version control & public hosting  
+
+---
+
+### 🧾 Proof of Work
+
+In case the live demo is unavailable in the future (due to AWS free tier expiry or cleanup), I’ve included **screenshots in the `/screenshots` folder** that capture every component and output clearly.
+
+---
+
+### 🔗 Live Demo
+
+- 🌐 Website: [http://kavan-cloud-resume-bucket-fixed-1234.s3-website-us-east-1.amazonaws.com](http://kavan-cloud-resume-bucket-fixed-1234.s3-website-us-east-1.amazonaws.com)  
+- 🧮 API Endpoint: [https://944m4hfjjh.execute-api.us-east-1.amazonaws.com/visitor](https://944m4hfjjh.execute-api.us-east-1.amazonaws.com/visitor)
 
 ---
 
 ### 🙌 Final Thoughts
 
-I didn’t just finish this project — I broke it, fixed it, rebuilt it, and now it runs clean.
+This isn't a copy-paste project.  
+I broke it. Fixed it. Broke it again. And finally made it rock-solid.
 
-This isn’t a tutorial copy-paste. I understand what’s going on under the hood — and that’s the whole point.
+That’s why this challenge matters — it taught me how real cloud deployments work.
+
 
